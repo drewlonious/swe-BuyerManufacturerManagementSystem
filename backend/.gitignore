@@ -1,0 +1,23 @@
+# python generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# venv
+.venv
+.DS_Store
+
+
+# Ignore specific files and folders in /backend
+/backend/__pycache__/
+backend/*.py[cod]
+backend/build/
+backend/dist/
+backend/wheels/
+backend/*.egg-info
+
+# If you use Rye, ignore Rye specific files
+.rye/
